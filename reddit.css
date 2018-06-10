@@ -1,0 +1,13 @@
+@-moz-document url-prefix("https://www.reddit.com") {
+@font-face {
+	font-family: "Roboto"!important;
+}
+
+* {
+	font-family: "Roboto"!important;
+}
+
+code {
+    font-family: "Input"!important;
+}
+}

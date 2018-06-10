@@ -1,0 +1,57 @@
+@-moz-document url-prefix("http://man.openbsd.org") {
+:root {
+	--primary: #081018;
+	--primary-light: #0e1c2b;
+    --accent: #70a070;
+    --foreground: #a3a7a8;
+}
+
+
+body {
+	color: var(--foreground);
+    background-color: var(--primary);
+    width: 100%;
+    padding: 0px 0px 0px 35%;
+    font-family: 'Input';
+}
+
+a {
+    color: var(--accent);
+}
+
+img {
+	visibility: hidden;
+}
+
+input {
+	color: var(--foreground);
+    background-color: var(--primary);
+    border: 5px solid transparent;
+}
+
+button, select{
+	color: var(--accent);
+    background-color: var(--primary-light);
+    border: 5px solid transparent;
+    margin: 5px;
+}
+
+fieldset {
+	border: 0px solid transparent;
+}
+
+.head-ltitle, .head-vol, .head-rtitle{
+    font-size: 25px;
+	color: var(--foreground);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+hr {
+    color: var(--primary-light);
+    background-color: var(--primary-light);
+    border: 2px solid var(--primary-light);
+}
+}
